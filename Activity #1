@@ -1,1 +1,24 @@
+import java.util.Scanner;
+public class {
 
+public static void main (String[] args) {
+  Scanner input = new Scanner(System.in);
+  System.out.println("Enter 1st Quarter");
+  int x = input.nextInt();
+  System.out.println("Enter 2nd Quarter");
+  int y = input.nextInt();
+  System.out.println("Enter 3rd Quarter");
+  int z = input.nextInt();
+
+int sum;
+sum = x + y + z;
+float quot;
+quot = sum / 3;
+
+double Perc;
+perc = *.60;
+Sytem.out.println("The Average is: "+quot);
+Sytem.out.println("The Percentage is: "+quot);
+
+}
+}
