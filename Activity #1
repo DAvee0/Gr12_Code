@@ -12,13 +12,13 @@ public static void main (String[] args) {
 
 int sum;
 sum = x + y + z;
-float quot;
-quot = sum / 3;
+double per;
+per = sum * .20;
+int avg = sum / 3;
 
-double Perc;
-perc = *.60;
-Sytem.out.println("The Average is: "+quot);
-Sytem.out.println("The Percentage is: "+quot);
+System.out.println("The Percentage is:" + per);
+System.out.println("The Average is:" + avg);
+
 
 }
 }
