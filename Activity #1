@@ -1,24 +1,29 @@
+package com;
+
 import java.util.Scanner;
-public class {
+public class Main {
 
-public static void main (String[] args) {
+ public static void main(String[] args) {
   Scanner input = new Scanner(System.in);
-  System.out.println("Enter 1st Quarter");
+  System.out.println("Performance Task");
+  System.out.println("Enter 1st Activity:");
   int x = input.nextInt();
-  System.out.println("Enter 2nd Quarter");
+  System.out.println("Enter 2nd Activity");
   int y = input.nextInt();
-  System.out.println("Enter 3rd Quarter");
+  System.out.println("Enter 3rd Activity:");
   int z = input.nextInt();
-
-int sum;
-sum = x + y + z;
-double per;
-per = sum * .20;
-int avg = sum / 3;
-
-System.out.println("The Percentage is:" + per);
-System.out.println("The Average is:" + avg);
-
-
+  
+  int sum;
+  sum = x + y + z;
+  float quot;
+  quot = sum / 3;
+  double perc;
+  perc = quot *.60;
+  
+  
+  System.out.println("Average is :"+ quot);
+  System.out.println("Percentage is :"+ perc);
+  
+  }
 }
-}
+
