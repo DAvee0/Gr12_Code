@@ -1,0 +1,8 @@
+int x = Interger.parseInt(jTextField1.getText());
+int y = Interger.parseInt(jTextField2.getText());
+int z = Interger.parseInt(jTextField3.getText());
+int a = Interger.parseInt(jTextField4.getText());
+
+int b = x + y + z + a;
+int c = b / 4;
+jTextField9.setText("" + String.valueOf(c));
